@@ -5,9 +5,6 @@
 
 #ifndef cmt_h
 #define cmt_h
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 #include "macros.h"
 #include "common.h"
@@ -64,7 +61,4 @@ MT_EXPORT
 void
 mtRelease(void *obj);
 
-#ifdef __cplusplus
-}
-#endif
 #endif /* cmt_h */

@@ -5,9 +5,6 @@
 
 #ifndef cmt_buffer_h
 #define cmt_buffer_h
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 #include "cmt/common.h"
 #include "cmt/types.h"

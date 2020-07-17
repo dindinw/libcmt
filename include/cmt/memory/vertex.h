@@ -5,9 +5,6 @@
 
 #ifndef cmt_vertex_h
 #define cmt_vertex_h
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 #include "cmt/common.h"
 #include "cmt/types.h"
@@ -138,3 +135,4 @@ mtSetVertexDesc(MtRenderPipeline   * __restrict pipeline,
                 MtVertexDescriptor * __restrict vert);
 
 #endif /* cmt_vertex_h */
+

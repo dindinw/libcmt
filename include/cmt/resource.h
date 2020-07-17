@@ -5,9 +5,6 @@
 
 #ifndef cmt_resource_h
 #define cmt_resource_h
-#ifdef __cplusplus
-extern "C" {
-#endif
 
 #include "common.h"
 
